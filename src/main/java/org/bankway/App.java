@@ -73,7 +73,7 @@ public class App {
 //                    break;
             }
 
-
+            connection.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
